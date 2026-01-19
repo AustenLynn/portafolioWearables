@@ -11,7 +11,7 @@ plugins:
 # - Para GitHub Pages (Project Page), edita:
 #     url: "https://TU_USUARIO.github.io"
 #     baseurl: "/NOMBRE_DEL_REPO"
-url: "https://AustenLynn.github.io/"
+url: "https://AustenLynn.github.io"
 baseurl: "/portafolioWearables"
 
 #Configuracion Formato, Header y Footer
