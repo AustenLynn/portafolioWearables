@@ -16,9 +16,19 @@ Este repositorio está diseñado para entender como utilizar la plantilla de rep
 6. Ajustar **estilos** (logo, colores, footer).
 
 
-Contenido:
+Contenido del mini-curso:
 - [1. Publicar en GitHub Pages](01-publicar-en-github-pages.md)
 - [2. Estructura del repositorio](02-estructura-del-repo.md)
 - [3. Escribir en Markdown](03-markdown.md)
 - [4. Personalización visual](04-estilos.md)
+
+---
+
+## Secciones del portafolio Wearables
+
+- [Concepto](concepto.md) — Intención de diseño
+- [Metodología de diseño](metodologia.md) — Proceso, requisitos, arquitectura e integración
+- [Proceso de manufactura](manufactura.md) — Fabricación, electrónica y código
+- [Evidencia](evidencia.md) — Fotografías y videos
+- [Conclusiones](conclusiones.md) — Reflexión crítica sobre el proceso y el resultado
 
