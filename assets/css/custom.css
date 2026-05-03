@@ -317,6 +317,80 @@ footer.site-footer { display: none !important; }
   }
 }
 
+/* ===== PORTFOLIO CARDS (section index tables) ===== */
+.portfolio-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.portfolio-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow .2s, border-color .2s;
+}
+
+.portfolio-card:hover {
+  box-shadow: 0 4px 14px rgba(224, 0, 52, .12);
+  border-color: #E00034;
+}
+
+.portfolio-card a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ===== PONDERACIÓN badge (> **Ponderación:** …) ===== */
+.page-content blockquote strong {
+  color: #E00034;
+}
+
+.page-content blockquote {
+  border-left: 4px solid #E00034;
+  background: #fff5f7;
+  padding: .6rem 1rem;
+  border-radius: 0 6px 6px 0;
+  color: #4B5563;
+  margin: 1rem 0;
+}
+
+/* ===== FIGURE captions (italic text after image) ===== */
+.page-content img + em,
+.page-content img + p > em:only-child {
+  display: block;
+  text-align: center;
+  font-size: .88rem;
+  color: #6B7280;
+  margin-top: .35rem;
+}
+
+/* ===== TABLE improvements ===== */
+.page-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: .95rem;
+}
+
+.page-content th {
+  background-color: #E00034;
+  color: #ffffff;
+  padding: .55rem .85rem;
+  text-align: left;
+}
+
+.page-content td {
+  padding: .5rem .85rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.page-content tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+
 video {
   max-width: 100%;
   height: auto;
