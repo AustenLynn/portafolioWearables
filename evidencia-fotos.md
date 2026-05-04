@@ -7,42 +7,48 @@ nav_order: 1
 
 # Fotografías
 
-Registro visual del proceso de diseño, fabricación y resultado final del wearable.
+Registro visual del proceso de diseño, fabricación y resultado final del wearable Golf Swing Analyzer.
 
 ---
 
 ## Proceso de diseño
 
-![Foto de proceso de diseño](assets/img/evidencia-diseno-01.png)
-*Figura 1 — Descripción de lo que muestra la imagen.*
+![Bocetos de arquitectura del sistema](assets/img/evidencia-diseno-01.png)
+*Figura 1 — Bocetos iniciales de la arquitectura ESP32 + sensores + BLE + app Android.*
 
 ---
 
 ## Fabricación
 
-![Foto de fabricación](assets/img/evidencia-fabricacion-01.png)
-*Figura 2 — Descripción de lo que muestra la imagen.*
+![Montaje en protoboard](assets/img/evidencia-fabricacion-01.png)
+*Figura 2 — Módulos ADXL345, ITG3200 y HMC5883L montados en protoboard junto al ESP32-C3. Se muestran las conexiones I2C compartidas (SDA: GPIO6, SCL: GPIO5).*
+
+![Integración con batería LiPo](assets/img/evidencia-fabricacion-02.png)
+*Figura 3 — Conjunto electrónico con batería LiPo 500 mAh y módulo de carga TP4056 antes de empacar en la funda.*
 
 ---
 
 ## Implementación electrónica
 
-![Foto de electrónica](assets/img/evidencia-electronica-01.png)
-*Figura 3 — Descripción de lo que muestra la imagen.*
+![Prueba de señal por Serial Monitor](assets/img/evidencia-electronica-01.png)
+*Figura 4 — Captura del Serial Monitor de Arduino IDE mostrando las columnas CSV: `t_ms, ax, ay, az, gx, gy, gz, yaw, pitch, roll` a ~100 Hz.*
+
+![App Python capturando por BLE](assets/img/evidencia-electronica-02.png)
+*Figura 5 — Script `capture_imu_ble.py` recibiendo líneas CSV del ESP32 a través de BLE y guardando en `data/raw/`.*
 
 ---
 
 ## Producto final
 
-![Vista frontal del wearable](assets/img/evidencia-final-frontal.png)
-*Figura 4 — Vista frontal del wearable terminado.*
+![Sensor montado en el palo de golf](assets/img/evidencia-final-frontal.png)
+*Figura 6 — El módulo wearable fijado con velcro en la empuñadura del palo de golf. El conjunto mide ~9 × 5 × 2 cm y pesa ~45 g.*
 
-![Vista lateral del wearable](assets/img/evidencia-final-lateral.png)
-*Figura 5 — Vista lateral del wearable terminado.*
+![App Android — pantalla de resultado](assets/img/evidencia-final-uso.png)
+*Figura 7 — Pantalla de resultado en la app Flutter mostrando: veredicto BUENO/MALO, porcentaje de confianza y desglose de las 6 features principales del swing analizado.*
 
-![Wearable en uso](assets/img/evidencia-final-uso.png)
-*Figura 6 — Wearable siendo utilizado en contexto real.*
+![Historial de swings en la app](assets/img/evidencia-final-historial.png)
+*Figura 8 — Pantalla de historial con la lista paginada de swings anteriores, filtrable por BUENO/MALO.*
 
 ---
 
-> **Tip:** Guarda tus imágenes en `assets/img/` y reemplaza los nombres de archivo de los ejemplos anteriores con los nombres reales de tus fotos.
+> **Nota:** Las imágenes se agregarán conforme se complete la documentación fotográfica del proyecto. Guarda las fotos en `assets/img/` con los nombres de archivo indicados arriba.

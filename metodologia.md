@@ -24,4 +24,4 @@ Esta sección documenta el **proceso completo de diseño**: desde la definición
 
 ## Resumen del proceso
 
-_Incluye aquí una descripción breve de alto nivel del proceso de diseño adoptado (p. ej. Design Thinking, Human-Centered Design, Iterative Prototyping)._
+Se adoptó una metodología de **Prototipado Iterativo** con cuatro subsistemas desarrollados en secuencia y validados de forma independiente antes de integrarse: (1) firmware ESP32 + sensores I2C, (2) transmisión BLE y captura de datos, (3) pipeline ML de segmentación + clasificación, y (4) API FastAPI + app Flutter. Cada iteración estuvo guiada por datos reales capturados con el propio sensor, permitiendo ajustar parámetros de segmentación, selección de features y arquitectura del clasificador en cada ciclo.
