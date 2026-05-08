@@ -102,3 +102,96 @@ Registro visual del proceso de diseño, fabricación y resultado final del weara
 
 ![Prototipo final — vista dorso](assets/img/evidencia/prototipo-final-guante-verde-dorso.jpg)
 *Figura 22 — Vista del dorso del prototipo final: guante verde cerrado en puño, mostrando el módulo electrónico integrado en el lateral de la muñeca.*
+
+![Prototipo final — snap buttons metálicos en palma](assets/img/evidencia/prototipo-final-snap-buttons-palma.jpg)
+*Figura 23 — Vista palma-arriba del prototipo final: snap buttons metálicos que permiten montar y desmontar el PCB del textil sin herramientas. ESP32-C3 suelto al fondo.*
+
+![Prototipo final — lateral con snap y ESP32 separado](assets/img/evidencia/prototipo-final-snap-lateral-esp32.jpg)
+*Figura 24 — Vista lateral del prototipo final mostrando el sistema de broches y el módulo ESP32-C3 desmontado junto al guante.*
+
+![Prototipo final — puño cerrado con costura de nylon visible](assets/img/evidencia/prototipo-final-puno-cerrado-costura.jpg)
+*Figura 25 — Prototipo final cerrado en puño: módulo prácticamente al ras del textil. Al fondo, el carrete de hilo de nylon utilizado en la costura final.*
+
+---
+
+## Diseño digital
+
+![Poster Golf Sync en edición](assets/img/evidencia/diseno-poster-edicion-laptop.jpg)
+*Figura 26 — Proceso de diseño del póster Golf Sync en tablet: iteración sobre la identidad visual del proyecto.*
+
+---
+
+## Implementación electrónica — detalles adicionales
+
+![PCB stack IMU + cargador — vista cenital](assets/img/evidencia/electronica-pcb-stack-cenital.jpg)
+*Figura 27 — Vista cenital del stack de tarjetas electrónicas: módulo IMU 10 DOF (arriba) apilado sobre UNIT Battery Charger (abajo), antes de integrarse al guante.*
+
+![ESP32 e IMU conectados a laptop para flash](assets/img/evidencia/electronica-esp32-imu-conexion.jpg)
+*Figura 28 — Módulo ESP32-C3 con sensor IMU siendo conectado a laptop para programación del firmware: cable USB-C y jumpers de señal visibles.*
+
+![Cargador UNIT con LiPo en banco de laboratorio](assets/img/evidencia/electronica-cargador-lipo-bench.jpg)
+*Figura 29 — Módulo cargador UNIT Battery Charger con batería LiPo de 3.7 V conectada al conector JST: LED verde de carga activo. Motor vibrador y cables en segundo plano.*
+
+![Componentes electrónicos desplegados con cableado](assets/img/evidencia/electronica-componentes-bench-cableado.jpg)
+*Figura 30 — Todos los componentes del sistema desplegados sobre la mesa de trabajo: cargador UNIT, LiPo, módulo IMU, cables jumper, motor vibrador y conectores.*
+
+![Integrante programando en laboratorio electrónico](assets/img/evidencia/proceso-laboratorio-programacion-2.jpg)
+*Figura 31 — Integrante del equipo programando el microcontrolador en el laboratorio electrónico durante una sesión de integración.*
+
+---
+
+## Fabricación — proceso detallado
+
+![Guante FootJoy con PCB apoyado antes de fijar](assets/img/evidencia/prototipo-v1-footjoy-pcb-mesa-previo.jpg)
+*Figura 32 — Guante FootJoy blanco con módulos electrónicos apoyados antes de aplicar la cinta azul: disposición inicial de componentes sobre el dorso.*
+
+![Aplicación de cinta azul sobre sensor en guante](assets/img/evidencia/prototipo-v1-cinta-azul-aplicacion.jpg)
+*Figura 33 — Proceso de fijación con cinta azul de masking: aplicación de la primera iteración de sujeción del sensor al guante.*
+
+---
+
+## Prototipo v2 — ángulos adicionales
+
+![Prototipo v2 — cinta amarilla activo con LiPo](assets/img/evidencia/prototipo-v2-cinta-amarilla-activo.jpg)
+*Figura 34 — Prototipo v2 en mano: stack electrónico completo (IMU + cargador + LiPo) fijado con cinta amarilla. LED rojo activo indica transmisión BLE en curso.*
+
+![Prototipo v2 — cinta amarilla vista dorso alternativa](assets/img/evidencia/prototipo-v2-cinta-amarilla-dorso.jpg)
+*Figura 35 — Vista alternativa del prototipo v2: ángulo dorso-lateral mostrando la distribución del stack y el cable de la LiPo integrado bajo la cinta.*
+
+---
+
+## App móvil — Golf Swing Analyzer
+
+![App — pantalla Capture Swing](assets/img/evidencia/app-capture-swing.png)
+*Figura 36 — Pantalla "Capture Swing" de la app Android: estado Disconnected, gráfica en tiempo real de omega_mag (°/s) con línea de umbral de detección a 60 °/s y botón "Start Recording".*
+
+![App — veredicto GOOD (86% confidence)](assets/img/evidencia/app-swing-detail-good.png)
+*Figura 37 — Pantalla resultado de swing: veredicto GOOD con 86% de confianza. Timeline de fases (Backswing 0.56 s → Downswing 0.89 s → Follow 1.12 s) y desglose de 6 features con barras comparativas.*
+
+![App — veredicto BAD (75% confidence)](assets/img/evidencia/app-swing-detail-bad.png)
+*Figura 38 — Pantalla resultado de swing: veredicto BAD con 75% de confianza. Tempo ratio 351.9:1 (target 3:1) — backswing de 7 s con follow de 10 s. Features marcadas en rojo.*
+assets/img/evidencia/prototipo-v1-cinta-azul-aplicacion.jpg)
+*Figura 33 — Proceso de fijación con cinta azul de masking: aplicación de la primera iteración de sujeción del sensor al guante.*
+
+---
+
+## Prototipo v2 — ángulos adicionales
+
+![Prototipo v2 — cinta amarilla activo con LiPo](assets/img/evidencia/prototipo-v2-cinta-amarilla-activo.jpg)
+*Figura 34 — Prototipo v2 en mano: stack electrónico completo (IMU + cargador + LiPo) fijado con cinta amarilla. LED rojo activo indica transmisión BLE en curso.*
+
+![Prototipo v2 — cinta amarilla vista dorso alternativa](assets/img/evidencia/prototipo-v2-cinta-amarilla-dorso.jpg)
+*Figura 35 — Vista alternativa del prototipo v2: ángulo dorso-lateral mostrando la distribución del stack y el cable de la LiPo integrado bajo la cinta.*
+
+---
+
+## App móvil — Golf Swing Analyzer
+
+![App — pantalla Capture Swing](assets/img/evidencia/app-capture-swing.png)
+*Figura 36 — Pantalla "Capture Swing" de la app Android: estado Disconnected, gráfica en tiempo real de omega_mag (°/s) con línea de umbral de detección a 60 °/s y botón "Start Recording".*
+
+![App — veredicto GOOD (86% confidence)](assets/img/evidencia/app-swing-detail-good.png)
+*Figura 37 — Pantalla resultado de swing: veredicto GOOD con 86% de confianza. Timeline de fases (Backswing 0.56 s → Downswing 0.89 s → Follow 1.12 s) y desglose de 6 features con barras comparativas.*
+
+![App — veredicto BAD (75% confidence)](assets/img/evidencia/app-swing-detail-bad.png)
+*Figura 38 — Pantalla resultado de swing: veredicto BAD con 75% de confianza. Tempo ratio 351.9:1 (target 3:1) — backswing de 7 s con follow de 10 s. Features marcadas en rojo.*

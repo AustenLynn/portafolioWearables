@@ -56,3 +56,9 @@ Registro visual del proceso de diseño, fabricación y prototipado del proyecto 
 
 ![Prototipo de pulsera — vista frontal en mano](assets/img/pulseras/prototipo-v1-guante-blanco-frente.jpg)
 *Figura 12 — Prototipo de pulsera: primera versión integrada en mano, mostrando el ensamblaje de componentes electrónicos sobre el textil.*
+
+![NeoPixel encendida en muñeca con Arduino y app](assets/img/pulseras/electronica-neopixel-muñeca-arduino.jpg)
+*Figura 13 — Tira LED NeoPixel encendida colocada en la muñeca durante prueba funcional, con Arduino en segundo plano y app móvil en pantalla. Prueba de retroalimentación visual en contexto real de uso.*
+
+![Banda de foam negra conectada a fuente de laboratorio](assets/img/pulseras/fabricacion-banda-foam-negra-fuente.jpg)
+*Figura 14 — Prototipo de banda wearable de foam negro con módulo electrónico integrado, conectado a fuente de alimentación regulable para medición de consumo eléctrico.*
